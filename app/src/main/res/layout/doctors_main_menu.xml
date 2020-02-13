@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.MediCare.Doctor_Details.Doctors_Main_Activity"
+    android:background="@drawable/mainmenuscreen">
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="AddDoctor"
+            android:background="@drawable/add"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Add Doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="DoctorList"
+            android:layout_gravity="center"
+            android:background="@drawable/doctors"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+           android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="DoctorList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+   <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="Update"
+                android:background="@drawable/update"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="Help"
+                android:layout_gravity="center"
+                android:background="@drawable/help"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

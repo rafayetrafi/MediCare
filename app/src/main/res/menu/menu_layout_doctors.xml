@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Home"
+        android:id="@+id/Home_id"
+        />
+
+
+    <item
+
+        android:title="Log Out"
+        android:id="@+id/logOut_id"
+        >
+    </item>
+
+</menu>

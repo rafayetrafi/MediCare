@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.MediCare">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icare"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.user.MediCare.SplashScreen_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.user.MediCare.Doctor_Details.DoctorList_Activity" />
+        <activity android:name="com.example.user.MediCare.Doctor_Details.Add_Doctor_Activity" />
+        <activity android:name="com.example.user.MediCare.Doctor_Details.Doctors_Main_Activity" />
+        <activity android:name="com.example.user.MediCare.MedicalHistory_Details.MedicalHistory_Form_Activity" />
+        <activity android:name="com.example.user.MediCare.MedicalHistory_Details.MedicalHistory_Data_Rewrite_Activity" />
+        <activity android:name="com.example.user.MediCare.MedicalHistory_Details.MedicalHistoryList_Activity" />
+        <activity android:name="com.example.user.MediCare.Doctor_Details.DoctorDataUpdateActivity" />
+        <activity android:name="com.example.user.MediCare.MedicalHistory_Details.MedicalHistroyFirstActivity" />
+        <activity android:name="com.example.user.MediCare.FirstActivity" />
+        <activity android:name="com.example.user.MediCare.Doctor_Details.DoctorLoginActivity" />
+        <activity android:name="com.example.user.MediCare.MedicalHistory_Details.MedicalHistoryLoginActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.MediCare.Doctor_Details.DoctorDataUpdateActivity"
+    android:background="@drawable/mainmenuscreen">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Details"
+        android:gravity="center"
+        android:textColor="#0b10a3"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Name: "
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorNameUpdateTV_id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_weight="3"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Specialist: "
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorDetailsUpdateTV_id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Specialist"
+                android:layout_weight="3"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Appointment: "
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorAppointmentUpdateTV_id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Appointment"
+                android:layout_weight="3"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Phone: "
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorPhoneNoUpdateTV_id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Phone No"
+                android:layout_weight="3"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Email: "
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorEmailUpdateTV_id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_weight="3"/>
+        </TableRow>
+
+
+        <Button
+            android:onClick="Update"
+            android:background="@drawable/btn_design"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text=" Update "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="CallToDoctor"
+            android:background="@drawable/btn_design"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text=" CAll to doctor "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

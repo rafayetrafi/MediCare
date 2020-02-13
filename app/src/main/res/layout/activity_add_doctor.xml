@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.MediCare.Doctor_Details.Add_Doctor_Activity"
+    android:background="@drawable/mainmenuscreen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Doctor"
+        android:gravity="center"
+        android:textColor="#0b10a3"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+
+    <EditText
+        android:id="@+id/addDoctor_Name_id"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Doctor Name"
+        android:background="@drawable/edit_text_design"/>
+    <EditText
+        android:id="@+id/addDoctor_Details_id"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Specialist"
+        android:background="@drawable/edit_text_design"/>
+
+    <EditText
+        android:id="@+id/addDoctor_AppointmentDate_id"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Appointment"
+        android:background="@drawable/edit_text_design"/>
+    <EditText
+        android:id="@+id/addDoctor_phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="PhoneNo"
+        android:inputType="number"
+        android:background="@drawable/edit_text_design"/>
+
+    <EditText
+        android:id="@+id/addDoctor_email_id"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        android:background="@drawable/edit_text_design"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/saveButton_id"
+            android:visibility="visible"
+            android:onClick="Save_Data"
+            android:textSize="20sp"
+            android:background="@drawable/btn_design"
+            android:text="Save Data"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+    <Button
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:onClick="Show_All"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:text="Show_All"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:id="@+id/doctorDataDelete_id"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Delete"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

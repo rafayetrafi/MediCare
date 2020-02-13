@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainmenuscreen"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.MediCare.FirstActivity">
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="A Personal Medical Care Application"
+        android:textSize="25sp"
+        android:textColor="#0218dc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_medical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_design"
+            android:onClick="Doctors"
+            android:text="Doctors"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_design"
+            android:onClick="MedicalHistory"
+            android:text="Medical History"
+            android:textSize="20sp"
+            android:layout_below="@+id/btn_medical"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

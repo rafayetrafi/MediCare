@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenuscreen"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.user.MediCare.MedicalHistory_Details.MedicalHistory_Form_Activity">
+
+
+
+    <TextView
+        android:id="@+id/tvTitleAddHealthCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Health Center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1812d1"/>
+
+
+    <ImageView
+        android:id="@+id/prescription_image_id"
+        android:src="@drawable/prescription"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/takePrescription_id"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Take Prescription Photo"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/spannerDoctorNameList_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_design"/>
+    <EditText
+        android:id="@+id/patient_Details_id"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint=" Details "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_design"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/patient_Date_id"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:hint=" Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_design"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:padding="10dp"
+        android:background="@drawable/btn_design"
+        android:layout_gravity="center"
+        android:text=" Save"
+        android:id="@+id/patient_Save_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:background="@drawable/btn_design"
+        android:layout_gravity="center"
+        android:text=" Show Data Button"
+        android:id="@+id/patient_ShowAllData_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
